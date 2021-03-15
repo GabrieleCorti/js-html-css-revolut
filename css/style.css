@@ -81,3 +81,7 @@ a:hover, .voice:hover, li:hover {
 .active {
   display: block;
 }
+
+.active_click {
+  display: block;
+}
