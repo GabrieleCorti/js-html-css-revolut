@@ -59,6 +59,7 @@ a:hover, .voice:hover, li:hover {
   cursor: pointer;
 }
 
+
 .btn {
   margin: 0 16px 0 32px;
 }
@@ -84,4 +85,8 @@ a:hover, .voice:hover, li:hover {
 
 .active_click {
   display: block;
+}
+
+.clear {
+  opacity: 1;
 }
