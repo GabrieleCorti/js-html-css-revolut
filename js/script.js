@@ -24,11 +24,15 @@ menuVoices.hover(
   function (){
     var dropMenu = $(this).children(".dropo_down_menu");
 
+    if ( !dropMenu.hasClass("active_click")){
+
       dropMenu.addClass("active");
       allDrop.removeClass("active_click");
       allVoice.removeClass("clear");
 
-    },
+    }
+
+  },
   function (){
     var dropMenu = $(this).children(".dropo_down_menu");
 
