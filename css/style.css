@@ -4,22 +4,35 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
   display: flex;
   align-items: center;
-  padding: 40px 40px;
-  font-size: 18px;
+  padding: 20px 48px;
+  font-size: 16px;
   box-shadow: rgb(25 28 31 / 4%) 0px 8px 16px, rgb(25 28 31 / 4%) 0px -1px 0px;
+  line-height: 1.65;
+  height: 88px;
 }
 
 .logo {
   flex-basis: 5%;
+  display: flex;
+  align-items: center;
 }
 
 .main_nav {
   flex-basis: 95%;
   display: flex;
   justify-content: space-between;
+  padding: 12px;
+}
+
+.main_nav > nav {
+  display: flex;
 }
 
 .nav_btn {
@@ -38,30 +51,29 @@ ul {
 
 a {
   text-decoration: none;
+  transition: all 0.2s;
 }
 
 .prime_nav li {
   padding: 0 20px;
+  transition: all 0.2s;
 }
 
  .voice, a, .dropo_down_menu li {
   color: #000000;
   opacity: .5;
-  font-weight: bold;
+  font-weight: normal;
+  transition: opacity 0.3s;
 }
 
 .bold {
   opacity: 1;
+  font-weight: 500;
 }
 
 a:hover, .voice:hover, li:hover {
   opacity: 1;
   cursor: pointer;
-}
-
-
-.btn {
-  margin: 0 16px 0 32px;
 }
 
 .menu_voice {
@@ -89,4 +101,31 @@ a:hover, .voice:hover, li:hover {
 
 .clear {
   opacity: 1;
+}
+
+.btn {
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-collapse: separate;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn_1 {
+  background-color: rgba(230, 230, 230, 0.6);
+  color: rgb(25, 28, 31);
+  margin: 0 16px 0 32px;
+
+}
+
+.btn_2 {
+  background-color: #3E4043;
+  color: white;
 }
