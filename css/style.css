@@ -75,5 +75,9 @@ a:hover, .voice:hover, li:hover {
   top: 100%;
   z-index: 10;
   background: white;
-  /* display: none; */
+   display: none;
+}
+
+.active {
+  display: block;
 }
